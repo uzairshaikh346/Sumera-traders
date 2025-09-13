@@ -13,6 +13,8 @@ const productQuery = `
   }
 `;
 
+
+
 type Product = {
   _id: string;
   name: string;

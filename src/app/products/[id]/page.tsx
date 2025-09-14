@@ -81,7 +81,7 @@ export default async function ProductDetailPage(props: any) {
                   className="text-3xl lg:text-4xl font-bold"
                   style={{ color: '#e87b51' }}
                 >
-                  ${product.price}
+                  Rs : {product.price}
                 </span>
               </div>
             </div>
@@ -114,12 +114,6 @@ export default async function ProductDetailPage(props: any) {
               </a>
             </div>
 
-            {/* Product ID (for reference) */}
-            <div className="pt-4 border-t border-white/10">
-              <p className="text-gray-400 text-sm">
-                Product ID: {product._id}
-              </p>
-            </div>
           </div>
         </div>
       </div>

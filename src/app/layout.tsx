@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Sumera Traders - Premium Crystals & Artisanal Salts",
   description: "Discover the finest collection of premium crystals and artisanal salts. Experience natural beauty and wellness with our curated products.",
+   icons: {
+    icon: ["/favicon.ico?v=4"],
+  },
 };
 
 export default function RootLayout({

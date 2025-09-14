@@ -7,7 +7,7 @@ const ContactInfoSection: React.FC = () => {
       id: 1,
       icon: Building2,
       label: 'Company Name',
-      value: 'CrystalSalt Exports',
+      value: 'Sumera Traders',
       href: null
     },
     {
@@ -121,13 +121,7 @@ const ContactInfoSection: React.FC = () => {
               cooking blocks, and therapeutic items. Contact us for bulk orders and international shipping.
             </p>
             
-            {/* Business Hours */}
-            <div className="mt-6 inline-flex items-center space-x-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-6 py-3">
-              <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span className="text-white/80 text-sm font-medium">
-                Business Hours: Mon - Fri, 9:00 AM - 6:00 PM PKT
-              </span>
-            </div>
+            
           </div>
         </div>
 

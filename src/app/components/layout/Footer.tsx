@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           {/* About Company */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-white">
-              CrystalSalt
+              Sumera Traders
             </h3>
             <p className="text-white/80 text-sm leading-relaxed">
               Discover the finest collection of premium crystals and artisanal salts. 
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
                 <div className="p-2 bg-white/10 rounded-lg border border-white/20 group-hover:bg-white/20 transition-all duration-300">
                   <Mail className="h-4 w-4" />
                 </div>
-                <span className="text-sm">hello@crystalsalt.com</span>
+                <span className="text-sm">info@sumera-traders.com</span>
               </div>
               <div className="flex items-center space-x-3 text-white/80 hover:text-white transition-colors duration-300 group">
                 <div className="p-2 bg-white/10 rounded-lg border border-white/20 group-hover:bg-white/20 transition-all duration-300">
@@ -103,7 +103,7 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-white/70 text-sm">
-              © 2025 CrystalSalt. All rights reserved.
+              © 2025 Sumera Traders. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 text-white/70 text-sm">
               <Link href="/terms" className="hover:text-white transition-colors duration-300">

@@ -13,8 +13,6 @@ const productQuery = `
   }
 `;
 
-
-
 type Product = {
   _id: string;
   name: string;
@@ -23,18 +21,15 @@ type Product = {
   imageUrl: string;
 };
 
-type PageProps = {
-  params: {
-    id: string;
-  };
-};
-
 async function getProduct(id: string): Promise<Product | null> {
   return await client.fetch(productQuery, { id });
 }
 
-export default async function ProductDetailPage({ params }: PageProps) {
-  const product = await getProduct(params.id);
+export default async function ProductDetailPage(props: any) {
+  const params = await props.params;
+  const { id } = params;
+  
+  const product = await getProduct(id);
 
   if (!product) {
     notFound();
@@ -130,20 +125,4 @@ export default async function ProductDetailPage({ params }: PageProps) {
       </div>
     </div>
   );
-}
-
-// Generate metadata for SEO
-export async function generateMetadata({ params }: PageProps) {
-  const product = await getProduct(params.id);
-  
-  if (!product) {
-    return {
-      title: 'Product Not Found',
-    };
-  }
-
-  return {
-    title: `${product.name} - $${product.price}`,
-    description: product.description,
-  };
 }

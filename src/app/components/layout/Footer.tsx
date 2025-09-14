@@ -81,19 +81,19 @@ const Footer: React.FC = () => {
                 <div className="p-2 bg-white/10 rounded-lg border border-white/20 group-hover:bg-white/20 transition-all duration-300">
                   <Mail className="h-4 w-4" />
                 </div>
-                <span className="text-sm">info@sumera-traders.com</span>
+                <span className="text-sm">Sumeratraders1@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-white/80 hover:text-white transition-colors duration-300 group">
                 <div className="p-2 bg-white/10 rounded-lg border border-white/20 group-hover:bg-white/20 transition-all duration-300">
                   <Phone className="h-4 w-4" />
                 </div>
-                <span className="text-sm">+92 321 1234567</span>
+                <span className="text-sm">03009248693</span>
               </div>
               <div className="flex items-center space-x-3 text-white/80 hover:text-white transition-colors duration-300 group">
                 <div className="p-2 bg-white/10 rounded-lg border border-white/20 group-hover:bg-white/20 transition-all duration-300">
                   <MapPin className="h-4 w-4" />
                 </div>
-                <span className="text-sm">Karachi, Pakistan</span>
+                <span className="text-sm">House no R.33 block 10 gulistan e Johar ,Karachi, Pakistan</span>
               </div>
             </div>
           </div>

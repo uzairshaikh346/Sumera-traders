@@ -14,29 +14,29 @@ const ContactInfoSection: React.FC = () => {
       id: 2,
       icon: MapPin,
       label: 'Address',
-      value: 'Karachi, Pakistan',
+      value: 'House no R.33 block 10 gulistan e Johar ,Karachi, Pakistan',
       href: null
     },
     {
       id: 3,
       icon: Phone,
       label: 'Phone',
-      value: '+92 300 1234567',
-      href: 'tel:+923001234567'
+      value: '03009248693',
+      href: 'tel:03009248693'
     },
     {
       id: 4,
       icon: Mail,
       label: 'Email',
-      value: 'info@crystalsalt.com',
-      href: 'mailto:info@crystalsalt.com'
+      value: 'Sumeratraders1@gmail.com',
+      href: 'mailto:sumeratraders1@gmail.com'
     },
     {
       id: 5,
       icon: Package,
       label: 'Export Inquiries',
-      value: 'export@crystalsalt.com',
-      href: 'mailto:export@crystalsalt.com'
+      value: 'export@Sumeratraders1@gmail.com',
+      href: 'mailto:Sumeratraders1@gmail.com'
     }
   ];
 
